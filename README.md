@@ -21,20 +21,20 @@ Formula:
 
 ## Model used for Forecasting
 1. ARIMA (Auto-Regressive Integrated Moving Average):
-ARIMA is a popular time series forecasting model used to analyze and predict future data points based on past trends. It consists of three components:
-
-Auto-Regressive (AR): Refers to the dependency between an observation and a number of lagged observations.
-Integrated (I): Involves differencing the data to achieve stationarity.
-Moving Average (MA): Models the dependency between an observation and a residual error from a moving average model.
-ARIMA assumes no seasonality in the data.
+   ARIMA is a popular time series forecasting model used to analyze and predict future data points based on past trends. It consists of three components:
+   
+   Auto-Regressive (AR): Refers to the dependency between an observation and a number of lagged observations.
+   Integrated (I): Involves differencing the data to achieve stationarity.
+   Moving Average (MA): Models the dependency between an observation and a residual error from a moving average model.
+   ARIMA assumes no seasonality in the data.
 
 2. SARIMA (Seasonal ARIMA):
-SARIMA extends ARIMA by adding seasonal components to account for repeating patterns at specific intervals. It incorporates:
-
-Seasonal Auto-Regressive (SAR): Seasonal lags in data.
-Seasonal Differencing (SD): Handles seasonality-induced non-stationarity.
-Seasonal Moving Average (SMA): Averages seasonal error terms.
-SARIMA is ideal for datasets with strong seasonal trends and cyclical patterns.
+   SARIMA extends ARIMA by adding seasonal components to account for repeating patterns at specific intervals. It incorporates:
+   
+   Seasonal Auto-Regressive (SAR): Seasonal lags in data.
+   Seasonal Differencing (SD): Handles seasonality-induced non-stationarity.
+   Seasonal Moving Average (SMA): Averages seasonal error terms.
+   SARIMA is ideal for datasets with strong seasonal trends and cyclical patterns.
 
 These models are critical for accurately forecasting in scenarios such as sales trends, ad CTR, or weather predictions. They are particularly effective when paired with diagnostic tools like ACF/PACF plots to identify parameters.
 
