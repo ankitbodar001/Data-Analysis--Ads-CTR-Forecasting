@@ -13,11 +13,11 @@ Using Python, this project implements an end-to-end solution for analyzing past 
 
  ## Key Terms
 1. CTR (Click-Through Rate): A ratio indicating how often users click on ads after viewing them.
-Formula:
---  **𝐶𝑇𝑅** = (Number of Clicks / Number of Impressions) × 100
+   Formula:
+   **𝐶𝑇𝑅** = (Number of Clicks / Number of Impressions) × 100
 
-2. Exploratory Data Analysis: Techniques to summarize main data characteristics using statistical and graphical methods.
-3. Predictive Modeling: Using historical data to forecast future outcomes. Regression models are often applied for numerical predictions.
+3. Exploratory Data Analysis: Techniques to summarize main data characteristics using statistical and graphical methods.
+4. Predictive Modeling: Using historical data to forecast future outcomes. Regression models are often applied for numerical predictions.
 
 ## Model used for Forecasting
 1. ARIMA (Auto-Regressive Integrated Moving Average):
